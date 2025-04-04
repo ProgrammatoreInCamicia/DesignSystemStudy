@@ -116,7 +116,7 @@ select {
 /* .flow>*:not(:first-child) { */
 .flow>*:where(:not(:first-child)) {
     margin-top: var(--flow-space, 1rem);
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .container {
@@ -250,4 +250,40 @@ select {
     color: hsl(var(--clr-white), .25);
     letter-spacing: 4.72px;
     margin-right: 1.75rem;
+}
+
+/* ----------------------- */
+/*       Components        */
+/* ----------------------- */
+
+.large-button {
+    position: relative;
+    display: grid;
+    z-index: 1;
+    place-items: center;
+    padding: 0 2em;
+    border-radius: 50%;
+    /* height: 100px;
+    width: 100px; */
+    aspect-ratio: 1 / 1;
+    text-decoration: none;
+}
+
+.large-button::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: hsl(var(--clr-white), .15);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 500ms linear, transform 750ms ease-in-out;
+    /* transition: transform 500ms ease-in-out; */
+}
+
+.large-button:hover::after,
+.large-button:focus::after {
+    opacity: 1;
+    transform: scale(1.5);
 }
