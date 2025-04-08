@@ -1,143 +1,170 @@
+<!DOCTYPE html>
 <html>
 
-<head>
-    <link rel="stylesheet" href="index.css">
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Barlow:wght@400;700&display=swap"
-        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Barlow:wght@400;700&display=swap"
+            rel="stylesheet">
 
-    <title>Design system</title>
-</head>
+        <title>Design system</title>
+    </head>
 
-<body>
-    <div class="container">
-        <h1 class="uppercase">Design system</h1>
+    <body>
+        <div class="container">
+            <h1 class="uppercase">Design system</h1>
 
-        <section id="colors" style="margin: 4rem 0">
-            <h2 class="numbered-title"><span>01</span> colors</h2>
+            <section id="colors" style="margin: 4rem 0">
+                <h2 class="numbered-title"><span>01</span> colors</h2>
 
-            <div class="flex">
+                <div class="flex">
 
-                <div style="flex-grow:1;">
-                    <div class="bg-dark text-white ff-serif fs-500"
-                        style="padding: 3rem 1rem 1rem; border: 1px solid white;">
-                        #0B0D17
+                    <div style="flex-grow:1;">
+                        <div class="bg-dark text-white ff-serif fs-500"
+                            style="padding: 3rem 1rem 1rem; border: 1px solid white;">
+                            #0B0D17
+                        </div>
+                        <p><span class="text-accent">RGB</span> 11, 13, 23</p>
+                        <p><span class="text-accent">HSL</span> 230, 35% 7%</p>
                     </div>
-                    <p><span class="text-accent">RGB</span> 11, 13, 23</p>
-                    <p><span class="text-accent">HSL</span> 230, 35% 7%</p>
-                </div>
 
-                <div style="flex-grow:1;">
-                    <div class="bg-accent text-dark ff-serif fs-500"
-                        style="padding: 3rem 1rem 1rem; border: 1px solid white;">
-                        #D0D6F9
+                    <div style="flex-grow:1;">
+                        <div class="bg-accent text-dark ff-serif fs-500"
+                            style="padding: 3rem 1rem 1rem; border: 1px solid white;">
+                            #D0D6F9
+                        </div>
+                        <p><span class="text-accent">RGB</span> 208, 214, 249</p>
+                        <p><span class="text-accent">HSL</span> 231, 77%, 90%</p>
                     </div>
-                    <p><span class="text-accent">RGB</span> 208, 214, 249</p>
-                    <p><span class="text-accent">HSL</span> 231, 77%, 90%</p>
-                </div>
 
-                <div style="flex-grow:1;">
-                    <div class="bg-white text-dark ff-serif fs-500"
-                        style="padding: 3rem 1rem 1rem; border: 1px solid white;">
-                        #FFFFFF
-                    </div>
-                    <p><span class="text-accent">RGB</span> 255, 255, 255</p>
-                    <p><span class="text-accent">HSL</span> 0, 0%, 100%</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="typography" style="margin: 4rem 0;">
-            <h2 class="numbered-title">
-                <span>02</span> Typography
-            </h2>
-            <div class="flex">
-                <div class="flow" style="flex-basis: 100%; --flow-space: 4rem;">
-                    <div>
-                        <b class="text-accent">Text Preset 1 - Bellefair Regular</b>
-                        <p class="text-accent">144px - 171.9% Line Height(Normal) - 0px Letter Spacing</p>
-                        <p class="fs-900 ff-serif uppercase">Earth</p>
-                    </div>
-                    <div>
-                        <b class="text-accent">Text Preset 2 - Bellefair Regular</b>
-                        <p class="text-accent">100px - 114.6% Line Height(Normal) - 0px Letter Spacing</p>
-                        <p class="fs-800 ff-serif uppercase">Venus</p>
-                    </div>
-                    <div>
-                        <b class="text-accent">Text Preset 3 - Bellefair Regular</b>
-                        <p class="text-accent">56px - 64.2% Line Height(Normal) - 0px Letter Spacing</p>
-                        <p class="fs-700 ff-serif uppercase">Jupiter & Saturn</p>
-                    </div>
-                    <div>
-                        <b class="text-accent">Text Preset 4 - Bellefair Regular</b>
-                        <p class="text-accent">32px - 36.7% Line Height(Normal) - 0px Letter Spacing</p>
-                        <p class="fs-600 ff-serif uppercase">Uranus, Neptune, & Pluto</p>
-                    </div>
-                    <div>
-                        <b class="text-accent">Text Preset 5 - Barlow Condensed Regular</b>
-                        <p class="text-accent">28px - 33.6% Line Height(Normal) - 4px Letter Spacing</p>
-                        <p class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">Haumea, Sedna, Eris, &
-                            Ceres</p>
+                    <div style="flex-grow:1;">
+                        <div class="bg-white text-dark ff-serif fs-500"
+                            style="padding: 3rem 1rem 1rem; border: 1px solid white;">
+                            #FFFFFF
+                        </div>
+                        <p><span class="text-accent">RGB</span> 255, 255, 255</p>
+                        <p><span class="text-accent">HSL</span> 0, 0%, 100%</p>
                     </div>
                 </div>
-                <div class="flow" style="flex-basis: 100%; --flow-space: 4rem;">
-                    <div>
-                        <b class="text-accent">Text Preset 6 - Bellefair Regular</b>
-                        <p class="text-accent">28px - 32.1% Line Height(Normal) - 0px Letter Spacing</p>
-                        <p class="fs-500 ff-serif uppercase">384,400km</p>
+            </section>
+
+            <section id="typography" style="margin: 4rem 0;">
+                <h2 class="numbered-title">
+                    <span>02</span> Typography
+                </h2>
+                <div class="flex">
+                    <div class="flow" style="flex-basis: 100%; --flow-space: 4rem;">
+                        <div>
+                            <b class="text-accent">Text Preset 1 - Bellefair Regular</b>
+                            <p class="text-accent">144px - 171.9% Line Height(Normal) - 0px Letter Spacing</p>
+                            <p class="fs-900 ff-serif uppercase">Earth</p>
+                        </div>
+                        <div>
+                            <b class="text-accent">Text Preset 2 - Bellefair Regular</b>
+                            <p class="text-accent">100px - 114.6% Line Height(Normal) - 0px Letter Spacing</p>
+                            <p class="fs-800 ff-serif uppercase">Venus</p>
+                        </div>
+                        <div>
+                            <b class="text-accent">Text Preset 3 - Bellefair Regular</b>
+                            <p class="text-accent">56px - 64.2% Line Height(Normal) - 0px Letter Spacing</p>
+                            <p class="fs-700 ff-serif uppercase">Jupiter & Saturn</p>
+                        </div>
+                        <div>
+                            <b class="text-accent">Text Preset 4 - Bellefair Regular</b>
+                            <p class="text-accent">32px - 36.7% Line Height(Normal) - 0px Letter Spacing</p>
+                            <p class="fs-600 ff-serif uppercase">Uranus, Neptune, & Pluto</p>
+                        </div>
+                        <div>
+                            <b class="text-accent">Text Preset 5 - Barlow Condensed Regular</b>
+                            <p class="text-accent">28px - 33.6% Line Height(Normal) - 4px Letter Spacing</p>
+                            <p class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">Haumea, Sedna, Eris, &
+                                Ceres</p>
+                        </div>
                     </div>
-                    <div>
-                        <b class="text-accent">Text Preset 7 - Barlow Condensed Regular</b>
-                        <p class="text-accent">14px - 16.8% Line Height(Normal) - 2px Letter Spacing</p>
-                        <p class="fs-200 ff-sans-cond uppercase letter-spacing-2">avg, distance</p>
-                    </div>
-                    <div>
-                        <b class="text-accent">Text Preset 8 - Barlow Condensed Regular</b>
-                        <p class="text-accent">16px - 19.2% Line Height(Normal) - 2px Letter Spacing</p>
-                        <p class="fs-300 ff-sans-cond uppercase letter-spacing-2">Europa</p>
-                    </div>
-                    <div>
-                        <b class="text-accent">Text Preset 9 - Barlow Regular</b>
-                        <p class="text-accent">18px - 180% Line Height(Normal) - 0px Letter Spacing</p>
-                        <p class="fs-400 ff-sans-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                            maiores unde incidunt
-                            accusamus consequatur natus excepturi nihil voluptatem ullam explicabo vero hic pariatur,
-                            placeat omnis nobis deleniti debitis, a enim.</p>
+                    <div class="flow" style="flex-basis: 100%; --flow-space: 4rem;">
+                        <div>
+                            <b class="text-accent">Text Preset 6 - Bellefair Regular</b>
+                            <p class="text-accent">28px - 32.1% Line Height(Normal) - 0px Letter Spacing</p>
+                            <p class="fs-500 ff-serif uppercase">384,400km</p>
+                        </div>
+                        <div>
+                            <b class="text-accent">Text Preset 7 - Barlow Condensed Regular</b>
+                            <p class="text-accent">14px - 16.8% Line Height(Normal) - 2px Letter Spacing</p>
+                            <p class="fs-200 ff-sans-cond uppercase letter-spacing-2">avg, distance</p>
+                        </div>
+                        <div>
+                            <b class="text-accent">Text Preset 8 - Barlow Condensed Regular</b>
+                            <p class="text-accent">16px - 19.2% Line Height(Normal) - 2px Letter Spacing</p>
+                            <p class="fs-300 ff-sans-cond uppercase letter-spacing-2">Europa</p>
+                        </div>
+                        <div>
+                            <b class="text-accent">Text Preset 9 - Barlow Regular</b>
+                            <p class="text-accent">18px - 180% Line Height(Normal) - 0px Letter Spacing</p>
+                            <p class="fs-400 ff-sans-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                                maiores unde incidunt
+                                accusamus consequatur natus excepturi nihil voluptatem ullam explicabo vero hic pariatur,
+                                placeat omnis nobis deleniti debitis, a enim.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="flow" id="interactive-elements">
-            <h2 class="numbered-title">
-                <span>03</span>
-                Interactive elements
-            </h2>
+            <section class="flow" id="interactive-elements">
+                <h2 class="numbered-title">
+                    <span>03</span>
+                    Interactive elements
+                </h2>
 
-            <!-- navigation -->
-            <div></div>
-
-            <div class="flex">
-                <div style="margin-top: 5rem;">
-                    <!-- explore button -->
-                    <a href="#" class="large-button uppercase ff-serif text-dark bg-white fs-600">Explore</a>
-                </div>
-
+                <!-- navigation -->
                 <div>
-                    <!-- Tabs -->
-
-                    <!-- Dots -->
-
-                    <!-- Numbers -->
+                    <nav>
+                        <ul class="primary-navigation underline-indicators flex">
+                            <li class="active"><a class="uppercase text-white letter-spacing-2"
+                                    href="#"><span>01</span>Active</a></li>
+                            <li><a class="uppercase text-white letter-spacing-2" href="#"><span>02</span>Hovered</a></li>
+                            <li><a class="uppercase text-white letter-spacing-2" href="#"><span>03</span>Idle</a></li>
+                        </ul>
+                    </nav>
                 </div>
-            </div>
-        </section>
-    </div>
 
-    <script src="index.js"></script>
-</body>
+                <div class="flex">
+                    <div style="margin-top: 5rem;">
+                        <!-- explore button -->
+                        <a href="#" class="large-button uppercase ff-serif text-dark bg-white fs-600">Explore</a>
+                    </div>
+
+                    <div>
+                        <!-- Tabs -->
+                        <div class="tab-list underline-indicators flex">
+                            <button aria-selected="true" class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Moon</button>
+                            <button 
+                            aria-selected="false" 
+                            class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Mars</button>
+                            <button 
+                            aria-selected="false"
+                            class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Europa</button>
+                        </div>
+
+                        <!-- Dots -->
+
+                        <!-- Numbers -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="tab-list underline-indicators flex">
+            <button class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Moon</button>
+            <button class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Mars</button>
+            <button class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Europa</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
 
 </html>
